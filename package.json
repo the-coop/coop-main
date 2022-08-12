@@ -4,11 +4,11 @@
   "description": "Single server community bot",
   "type": "module",
   "scripts": {
-    "start": "node --experimental-json-modules ./index.mjs",
-    "dev": "nodemon --exec 'node --experimental-json-modules' ./index.mjs",
+    "start": "pm2 start ./index.mjs",
+    "dev": "nodemon --exec 'node  ./index.mjs",
     "lint": "eslint .",
-    "deploy-commands": "node --experimental-json-modules ./patching/deploy-commands.mjs",
-    "check-commands": "node --experimental-json-modules ./patching/check-commands.mjs"
+    "deploy-commands": "node ./patching/deploy-commands.mjs",
+    "check-commands": "node ./patching/check-commands.mjs"
   },
   "author": "lmf-git",
   "engines": {
@@ -38,6 +38,7 @@
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "pg": "^8.4.1",
+    "pm2": "^5.2.0",
     "socket.io": "^4.1.2",
     "sugar": "^2.0.6",
     "tweetnacl": "^1.0.3"

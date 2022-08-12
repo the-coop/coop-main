@@ -6,10 +6,18 @@ import registerLogging from './organisation/setup/logging.mjs';
 
 import eventsManifest from './operations/manifest.mjs';
 
+import express from 'express';
 
 
 export default async function bot() {
     console.log('Trying to start bot');
+
+
+    const app = express();
+
+    app.get('/', (req, res) => {
+        res.send('OK');
+    });
 
     // // Connect to PostGres Database and attach event/error handlers.
     // await Database.connect();
