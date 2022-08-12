@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /coopbot
     
-# hooks:
+hooks:
   # BeforeInstall:
   #   - location: scripts/install_dependencies.sh
   #     timeout: 300
@@ -15,9 +15,9 @@ files:
   #     timeout: 300
   #     runas: root
 
-  # ApplicationStart:
-  #   - location: scripts/start_server.sh
-  #     timeout: 300
+  ApplicationStart:
+    - location: start.sh
+      timeout: 300
   #     runas: root
 
   # ApplicationStop:
