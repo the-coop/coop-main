@@ -58,3 +58,21 @@ Starts script text: eslint .
 
 \* Single Server Bot (SSB**)
 \*\* Idk if this exists, just made it up.
+
+
+
+
+
+Steps that had to be taken to create host instance:
+
+Security group
+Key
+Pipeline
+appspec buildspec
+
+Install nvm
+nvm alias default lts/*
+
+
+
+https://jeffmcneill.com/bashrc-bash_profile-path-on-ami/
