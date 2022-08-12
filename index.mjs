@@ -7,6 +7,7 @@ import registerLogging from './organisation/setup/logging.mjs';
 import eventsManifest from './operations/manifest.mjs';
 
 
+
 export default async function bot() {
     console.log('Trying to start bot');
 
