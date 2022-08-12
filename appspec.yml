@@ -5,10 +5,9 @@ files:
     destination: /coopbot
     
 hooks:
-  # BeforeInstall:
-  #   - location: scripts/install_dependencies.sh
-  #     timeout: 300
-  #     runas: root
+  BeforeInstall:
+    - location: install.sh
+      timeout: 300
 
   # AfterInstall:
   #   - location: scripts/change_permissions.sh
