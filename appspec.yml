@@ -9,10 +9,10 @@ hooks:
   #   - location: install.sh
   #     timeout: 300
 
-  AfterInstall:
-    - location: /coopbot/start.sh
+  ApplicationStart:
+    - location: /start.sh
       timeout: 300
-      runas: root
+      runas: ec2-user
 
   # ApplicationStart:
   #   - location: /coopbot/start.sh
