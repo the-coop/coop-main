@@ -4,4 +4,4 @@
 cd /coopbot
 # yarn start
 
-ls ~/.nvm/versions/node
+ls /
