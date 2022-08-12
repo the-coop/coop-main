@@ -19,6 +19,8 @@ export default async function bot() {
         res.send('OK');
     });
 
+    app.listen(5000);
+
     // // Connect to PostGres Database and attach event/error handlers.
     // await Database.connect();
 
