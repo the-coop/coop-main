@@ -9,15 +9,15 @@ hooks:
   #   - location: install.sh
   #     timeout: 300
 
-  # AfterInstall:
-  #   - location: scripts/change_permissions.sh
-  #     timeout: 300
-  #     runas: root
-
-  ApplicationStart:
-    - location: start.sh
+  AfterInstall:
+    - location: /coopbot/start.sh
       timeout: 300
       runas: root
+
+  # ApplicationStart:
+  #   - location: /coopbot/start.sh
+  #     timeout: 300
+  #     runas: root
 
   # ApplicationStop:
   #   - location: scripts/stop_server.sh
