@@ -12,7 +12,6 @@ import express from 'express';
 export default async function bot() {
     console.log('Trying to start bot');
 
-
     const app = express();
 
     app.get('/', (req, res) => {

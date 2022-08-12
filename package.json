@@ -4,7 +4,7 @@
   "description": "Single server community bot",
   "type": "module",
   "scripts": {
-    "start": "pm2 start ./index.mjs",
+    "start": "pm2 start -f ./index.mjs",
     "dev": "nodemon --exec 'node  ./index.mjs",
     "lint": "eslint .",
     "deploy-commands": "node ./patching/deploy-commands.mjs",
