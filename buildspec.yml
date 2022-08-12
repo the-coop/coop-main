@@ -18,10 +18,4 @@ phases:
 # Include only the files required for your application to run.
 artifacts:
   files:
-    - start.sh
-    - index.mjs
-    - appspec.yml
-    - commands/**/*
-    - operations/**/*
-    - organisation/**/*
-    - node_modules/**/*
+    - '**/*'
