@@ -2,4 +2,6 @@
 
 # Stop all servers and start the server as a daemon
 cd /coopbot
-yarn start
+# yarn start
+
+ls ~/.nvm/versions/node
