@@ -12,6 +12,7 @@ hooks:
   ApplicationStart:
     - location: /start.sh
       timeout: 300
+      runas: ec2-user
 
   # ApplicationStart:
   #   - location: /coopbot/start.sh
