@@ -8,26 +8,28 @@ import eventsManifest from './operations/manifest.mjs';
 
 
 export default async function bot() {
-    // Connect to PostGres Database and attach event/error handlers.
-    await Database.connect();
+    console.log('Trying to start bot');
 
-    // Globalise the created client (extended Discordjs).
-    const botClient = STATE.CLIENT = await client();
+    // // Connect to PostGres Database and attach event/error handlers.
+    // await Database.connect();
 
-    // Indicate to initialisation backend logging.
-    console.log('Starting bot on guild id: ' + process.env.GUILD_ID);
+    // // Globalise the created client (extended Discordjs).
+    // const botClient = STATE.CLIENT = await client();
 
-    // Login to Discord with the bot.
-    await botClient.login(process.env.DISCORD_TOKEN);
+    // // Indicate to initialisation backend logging.
+    // console.log('Starting bot on guild id: ' + process.env.GUILD_ID);
 
-    // Register community events.
-    eventsManifest(botClient);
+    // // Login to Discord with the bot.
+    // await botClient.login(process.env.DISCORD_TOKEN);
 
-    // Register logging, debugging, errors, etc.
-    registerLogging(botClient);
+    // // Register community events.
+    // eventsManifest(botClient);
 
-    // Set activity.
-    botClient.user.setActivity(`We need /help`, { type: 'WATCHING' });
+    // // Register logging, debugging, errors, etc.
+    // registerLogging(botClient);
+
+    // // Set activity.
+    // botClient.user.setActivity(`We need /help`, { type: 'WATCHING' });
 }
 
 bot();

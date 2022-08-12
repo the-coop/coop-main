@@ -1,0 +1,26 @@
+# Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - yarn install
+
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the dist folder
+
+  post_build:
+    commands:
+      - echo Build completed on `date`
+
+# Include only the files required for your application to run.
+artifacts:
+  files:
+    - index.js
+    - appspec.yml
+    - commands/**/*
+    - operations/**/*
+    - organisation/**/*
+    - node_modules/**/*
