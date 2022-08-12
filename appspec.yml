@@ -16,7 +16,7 @@ hooks:
   # ApplicationStart:
   #   - location: /coopbot/start.sh
   #     timeout: 300
-  #     runas: root
+  #     runas: rootµ
 
   # ApplicationStop:
   #   - location: scripts/stop_server.sh
