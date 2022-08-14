@@ -26,8 +26,8 @@ export default async function bot() {
 
     // Get env variables into node/pm2?
 
-    // region = "us-east-2",
-    // secretName = "DB_CREDENTIAL",
+    const region = "us-east-2";
+    const secretName = "DB_CREDENTIAL";
     // secret,
     // decodedBinarySecret;
 
