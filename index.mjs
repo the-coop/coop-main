@@ -8,6 +8,7 @@ import eventsManifest from './operations/manifest.mjs';
 
 import express from 'express';
 import secrets from './organisation/setup/secrets.mjs';
+import StockHelper from './operations/stock/stockHelper.mjs';
 
 export default async function bot() {
     console.log('Trying to start bot');
@@ -35,6 +36,10 @@ export default async function bot() {
 
     // // Set activity.
     botClient.user.setActivity(`We need /help`, { type: 'WATCHING' });
+
+
+    // Test stock announce.
+    StockHelper.announce();
 
     // Make internal router work for accessing Discord server via API
     // const app = express();
