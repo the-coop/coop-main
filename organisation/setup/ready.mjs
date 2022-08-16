@@ -34,9 +34,6 @@ export default async () => {
         // TODO
         // Preload egghunt items, crates, dropped items, woodcutting, mining.
 
-        // Testing only
-        StockHelper.announce();
-
         // May be more efficient for now to preload all temporary messages.
         const tempMsgs = await TemporaryMessages.get();
         MESSAGES.preloadMsgLinks(tempMsgs.map(m => m.message_link))

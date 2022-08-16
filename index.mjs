@@ -19,7 +19,6 @@ Sentry.init({
     tracesSampleRate: 1.0,
 });
 
-
 export default async function bot() {
     console.log('Trying to start bot');
 
