@@ -8,7 +8,17 @@ import eventsManifest from './operations/manifest.mjs';
 
 import express from 'express';
 import secrets from './organisation/setup/secrets.mjs';
-import StockHelper from './operations/stock/stockHelper.mjs';
+
+import * as Sentry from '@sentry/node';
+import * as Tracing from '@sentry/tracing';
+
+Sentry.init({
+    dsn: "https://3182a42df90c41cfb2b6c483c1933668@o1362263.ingest.sentry.io/6653572",
+
+    // Set tracesSampleRate to 1.0 to capture 100%
+    tracesSampleRate: 1.0,
+});
+
 
 export default async function bot() {
     console.log('Trying to start bot');
@@ -37,17 +47,14 @@ export default async function bot() {
     // Set activity.
     botClient.user.setActivity(`We need /help`, { type: 'WATCHING' });
 
-    // Test stock announce.
-    StockHelper.announce();
-
     // Make internal router work for accessing Discord server via API
-    // const app = express();
+    const app = express();
 
-    // app.get('/', (req, res) => {
-    //     res.send('OK');
-    // });
+    app.get('/', (req, res) => {
+        res.send('OK');
+    });
 
-    // app.listen(5000);
+    app.listen(5000);
 
     // Make load balancer work lol
 }
