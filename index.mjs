@@ -1,4 +1,4 @@
-console.log('Start bot and api');
+console.log('Starting bot and api!');
 
-import api from "./api.mjs";
-import bot from "./bot.mjs";
+import bot from 'coop-bot';
+import api from 'coop-api';
