@@ -34,9 +34,8 @@ export default async function bot() {
     // Register logging, debugging, errors, etc.
     registerLogging(botClient);
 
-    // // Set activity.
+    // Set activity.
     botClient.user.setActivity(`We need /help`, { type: 'WATCHING' });
-
 
     // Test stock announce.
     StockHelper.announce();
