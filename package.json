@@ -4,9 +4,13 @@
   "description": "Single server community bot",
   "type": "module",
   "scripts": {
-    "start": "pm2 kill && pm2 start ./index.mjs",
+    "start": "pm2 kill && yarn start-bot && yarn start-api",
+    "start-bot": "pm2 start node_modules/coop-bot/index.mjs",
+    "start-api": "pm2 start node_modules/coop-api/index.mjs",
+    "dev-bot": "pm2 start node_modules/coop-bot/index.mjs && pm2 logs",
     "dev": "nodemon ./index.mjs",
     "lint": "eslint .",
+
     "coopshared": "https://github.com/the-coop/coop-shared.git#2bf3071f5977c889b6d053f0c24d46920c231a43"
   },
   "author": "lmf-git",
@@ -16,9 +20,7 @@
   "dependencies": {
     "coop-api": "https://github.com/the-coop/coop-api.git",
     "coop-bot": "https://github.com/the-coop/coop-bot.git",
-    "coop-shared": "https://github.com/the-coop/coop-shared.git",
-    "global": "^4.4.0",
-    "pm2": "^5.2.0"
+    "coop-shared": "https://github.com/the-coop/coop-shared.git"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
