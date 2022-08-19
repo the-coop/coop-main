@@ -5,21 +5,19 @@
   "type": "module",
   "scripts": {
     "start": "pm2 kill && yarn start-bot && yarn start-api",
-    "start-bot": "pm2 start node_modules/coop-bot/index.mjs",
-    "start-api": "pm2 start node_modules/coop-api/index.mjs",
-    "dev-bot": "pm2 start node_modules/coop-bot/index.mjs && pm2 logs",
+    "start-bot": "pm2 start --name bot bot.mjs",
+    "start-api": "pm2 start --name api api.mjs",
+    "dev-bot": "pm2 start bot.mjs && pm2 logs",
     "dev": "nodemon ./index.mjs",
-    "lint": "eslint .",
-
-    "coopshared": "https://github.com/the-coop/coop-shared.git#2bf3071f5977c889b6d053f0c24d46920c231a43"
+    "lint": "eslint ."
   },
   "author": "lmf-git",
   "engines": {
     "node": "16.x"
   },
   "dependencies": {
-    "coop-api": "https://github.com/the-coop/coop-api.git#f5fe7ef",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#1ca90a3"
+    "coop-api": "https://github.com/the-coop/coop-api.git#master",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#master"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
