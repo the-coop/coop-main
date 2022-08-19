@@ -3,5 +3,5 @@
 source ~/.bash_profile
 
 
-cd /coopbot
+cd /coop-main
 yarn start
