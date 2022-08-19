@@ -1,6 +1,6 @@
 {
   "name": "coop-main",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Single server community bot",
   "type": "module",
   "scripts": {
@@ -18,8 +18,8 @@
     "node": "16.x"
   },
   "dependencies": {
-    "coop-api": "https://github.com/the-coop/coop-api.git",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git"
+    "coop-api": "https://github.com/the-coop/coop-api.git#f5fe7ef",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#1ca90a3"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
