@@ -16,8 +16,8 @@
     "node": "16.x"
   },
   "dependencies": {
-    "coop-api": "https://github.com/the-coop/coop-api.git#master",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#master"
+    "coop-api": "https://github.com/the-coop/coop-api.git#a90611b9a22ef9800e8090add8337ab7c456e2df",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#3f80067d569ab6d934b2cb97fde3288564fd4590"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
