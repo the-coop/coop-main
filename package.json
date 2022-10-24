@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "coop-api": "https://github.com/the-coop/coop-api.git#593ae6f9859f360fb469e503b0dc30a2ac988ee1",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#6b2c760d16dd6758303297f1a7583333b4ecab34"
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#9a870046643c55a5dbccf243bea2897c3b928667"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
