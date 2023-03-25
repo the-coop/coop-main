@@ -4,7 +4,6 @@
   "description": "Single server community bot",
   "type": "module",
   "scripts": {
-    "start": "pm2 kill && yarn start-bot && yarn start-api",
     "start-bot": "pm2 start --name bot bot.mjs",
     "start-api": "pm2 start --name api api.mjs",
     "dev-bot": "pm2 start bot.mjs && pm2 logs",
@@ -16,8 +15,8 @@
     "node": "16.x"
   },
   "dependencies": {
-    "coop-api": "https://github.com/the-coop/coop-api.git#b0b5b82c0ec844078eb3ebf2443c89ac7ea27fc8",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#1e1be8c706cb0af90bc0c2ef7829758fa3a1336d"
+    "coop-api": "https://github.com/the-coop/coop-api.git#7ce43ca73e463e2b84061efaa911e753e7d586b0",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#574f9d74eb4b9c933f499b6e8ef5bec379469892"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
