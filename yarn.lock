@@ -917,9 +917,9 @@ cookiejar@^2.1.2:
   resolved "https://registry.yarnpkg.com/cookiejar/-/cookiejar-2.1.3.tgz#fc7a6216e408e74414b90230050842dacda75acc"
   integrity sha512-JxbCBUdrfr6AQjOXrxoTvAMJO4HBTUIlBzslcJPAz+/KT8yk53fXun51u+RenNYvad/+Vc2DIz5o9UxlCDymFQ==
 
-"coop-api@https://github.com/the-coop/coop-api.git#7ce43ca73e463e2b84061efaa911e753e7d586b0":
+"coop-api@https://github.com/the-coop/coop-api.git#133fdc761f4af01dbc4fe6981b46896c5ef19c71":
   version "1.0.3"
-  resolved "https://github.com/the-coop/coop-api.git#7ce43ca73e463e2b84061efaa911e753e7d586b0"
+  resolved "https://github.com/the-coop/coop-api.git#133fdc761f4af01dbc4fe6981b46896c5ef19c71"
   dependencies:
     "@sentry/node" "^7.10.0"
     "@sentry/tracing" "^7.10.0"
