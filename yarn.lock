@@ -737,9 +737,9 @@ cookiejar@^2.1.2:
   resolved "https://registry.yarnpkg.com/cookiejar/-/cookiejar-2.1.3.tgz#fc7a6216e408e74414b90230050842dacda75acc"
   integrity sha512-JxbCBUdrfr6AQjOXrxoTvAMJO4HBTUIlBzslcJPAz+/KT8yk53fXun51u+RenNYvad/+Vc2DIz5o9UxlCDymFQ==
 
-"coop-api@https://github.com/the-coop/coop-api.git#b0b5b82c0ec844078eb3ebf2443c89ac7ea27fc8":
+"coop-api@https://github.com/the-coop/coop-api.git#7ce43ca73e463e2b84061efaa911e753e7d586b0":
   version "1.0.3"
-  resolved "https://github.com/the-coop/coop-api.git#b0b5b82c0ec844078eb3ebf2443c89ac7ea27fc8"
+  resolved "https://github.com/the-coop/coop-api.git#7ce43ca73e463e2b84061efaa911e753e7d586b0"
   dependencies:
     "@sentry/node" "^7.10.0"
     "@sentry/tracing" "^7.10.0"
@@ -749,9 +749,10 @@ cookiejar@^2.1.2:
     axios "^0.21.2"
     body-parser "^1.19.0"
     chance "^1.1.7"
-    coop-shared "git+https://github.com/the-coop/coop-shared.git#a40e2f170ba553229ee614d376889ef92f97a417"
+    coop-shared "git+https://github.com/the-coop/coop-shared.git#bf949752ccb1518a3ca4d6fbdaf942e8521424da"
     cors "^2.8.5"
     discord.js "^14.6.0"
+    dotenv "^16.0.3"
     express "^4.17.1"
     jsonwebtoken "^8.5.1"
     lodash "^4.17.21"
@@ -763,9 +764,9 @@ cookiejar@^2.1.2:
     socket.io "^4.1.2"
     sugar "^2.0.6"
 
-"coop-bot@https://github.com/the-coop/coop-bot.git#1e1be8c706cb0af90bc0c2ef7829758fa3a1336d":
+"coop-bot@https://github.com/the-coop/coop-bot.git#574f9d74eb4b9c933f499b6e8ef5bec379469892":
   version "1.0.2"
-  resolved "https://github.com/the-coop/coop-bot.git#1e1be8c706cb0af90bc0c2ef7829758fa3a1336d"
+  resolved "https://github.com/the-coop/coop-bot.git#574f9d74eb4b9c933f499b6e8ef5bec379469892"
   dependencies:
     "@discordjs/opus" "^0.8.0"
     "@discordjs/voice" "^0.11.0"
@@ -775,8 +776,9 @@ cookiejar@^2.1.2:
     algosdk "^1.19"
     axios "^0.21.2"
     chance "^1.1.7"
-    coop-shared "git+https://github.com/the-coop/coop-shared.git#a40e2f170ba553229ee614d376889ef92f97a417"
+    coop-shared "git+https://github.com/the-coop/coop-shared.git#bf949752ccb1518a3ca4d6fbdaf942e8521424da"
     discord.js "^14.6.0"
+    dotenv "^16.0.3"
     emoji-regex "^9.2.0"
     ffmpeg-static "^5.0.2"
     jsonwebtoken "^8.5.1"
@@ -788,9 +790,9 @@ cookiejar@^2.1.2:
     sugar "^2.0.6"
     tweetnacl "^1.0.3"
 
-"coop-shared@git+https://github.com/the-coop/coop-shared.git#a40e2f170ba553229ee614d376889ef92f97a417":
+"coop-shared@git+https://github.com/the-coop/coop-shared.git#bf949752ccb1518a3ca4d6fbdaf942e8521424da":
   version "1.0.26"
-  resolved "git+https://github.com/the-coop/coop-shared.git#a40e2f170ba553229ee614d376889ef92f97a417"
+  resolved "git+https://github.com/the-coop/coop-shared.git#bf949752ccb1518a3ca4d6fbdaf942e8521424da"
   dependencies:
     aws-sdk "^2.1198.0"
     axios "^0.27.2"
@@ -916,6 +918,11 @@ doctrine@^3.0.0:
   integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
   dependencies:
     esutils "^2.0.2"
+
+dotenv@^16.0.3:
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
 
 ecdsa-sig-formatter@1.0.11:
   version "1.0.11"
