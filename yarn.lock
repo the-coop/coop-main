@@ -944,9 +944,9 @@ cookiejar@^2.1.2:
     socket.io "^4.1.2"
     sugar "^2.0.6"
 
-"coop-bot@https://github.com/the-coop/coop-bot.git#73b76ebb00a94d982d3f7d57e0fb68e61a1aa954":
+"coop-bot@https://github.com/the-coop/coop-bot.git#334f4ae30cbde544ed9151f3b67109b26ad1a76a":
   version "1.0.2"
-  resolved "https://github.com/the-coop/coop-bot.git#73b76ebb00a94d982d3f7d57e0fb68e61a1aa954"
+  resolved "https://github.com/the-coop/coop-bot.git#334f4ae30cbde544ed9151f3b67109b26ad1a76a"
   dependencies:
     "@discordjs/opus" "^0.8.0"
     "@discordjs/voice" "^0.11.0"
