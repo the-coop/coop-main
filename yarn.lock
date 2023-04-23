@@ -780,9 +780,9 @@ cookiejar@^2.1.2:
     socket.io "^4.5.1"
     sugar "^2.0.6"
 
-"coop-bot@https://github.com/the-coop/coop-bot.git#a92d78327676e929865480094fe47dfed36babe4":
+"coop-bot@https://github.com/the-coop/coop-bot.git#d6de91e701393cc201cd396cfa038d00291afae9":
   version "1.0.2"
-  resolved "https://github.com/the-coop/coop-bot.git#a92d78327676e929865480094fe47dfed36babe4"
+  resolved "https://github.com/the-coop/coop-bot.git#d6de91e701393cc201cd396cfa038d00291afae9"
   dependencies:
     "@json-rpc-tools/utils" "^1.7.6"
     algosdk "^1.19"
