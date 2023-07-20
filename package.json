@@ -15,8 +15,8 @@
     "node": "16.x"
   },
   "dependencies": {
-    "coop-api": "https://github.com/the-coop/coop-api.git#3484142a571b766013c101bf6735020c00654392",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#428c060882a3ab8219d20ee46d48de474864db16",
+    "coop-api": "https://github.com/the-coop/coop-api.git#6545008f6bb395988a933257d8dcce488ddc1ec1",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#7e3811e4af2671353093b717ce205530e62527b5",
     "pm2": "^5.3.0"
   },
   "devDependencies": {
