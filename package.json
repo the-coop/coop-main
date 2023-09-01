@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "coop-api": "https://github.com/the-coop/coop-api.git#7a37e68724ab705e10ae0189696a013cca76b321",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#1893b60bcbf8a95f9b8f25b376c7cdb8297e38ec",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#48bc0d385f9f41293279bbf5feb6a14307077b52",
     "pm2": "^5.3.0"
   },
   "devDependencies": {
