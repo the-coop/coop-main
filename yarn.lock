@@ -834,9 +834,9 @@ cookiejar@^2.1.2:
   resolved "https://registry.yarnpkg.com/cookiejar/-/cookiejar-2.1.3.tgz#fc7a6216e408e74414b90230050842dacda75acc"
   integrity sha512-JxbCBUdrfr6AQjOXrxoTvAMJO4HBTUIlBzslcJPAz+/KT8yk53fXun51u+RenNYvad/+Vc2DIz5o9UxlCDymFQ==
 
-"coop-api@https://github.com/the-coop/coop-api.git#7a37e68724ab705e10ae0189696a013cca76b321":
+"coop-api@https://github.com/the-coop/coop-api.git#e8cd34ac1b64f450a8a702913fa14071fea5287b":
   version "1.0.3"
-  resolved "https://github.com/the-coop/coop-api.git#7a37e68724ab705e10ae0189696a013cca76b321"
+  resolved "https://github.com/the-coop/coop-api.git#e8cd34ac1b64f450a8a702913fa14071fea5287b"
   dependencies:
     algosdk "^1.19"
     axios "^0.27.2"
