@@ -11,12 +11,9 @@
     "lint": "eslint ."
   },
   "author": "lmf-git",
-  "engines": {
-    "node": "16.x"
-  },
   "dependencies": {
-    "coop-api": "https://github.com/the-coop/coop-api.git#3e7bb3e13adbe30203361aaea2a15d5d1cf3dc69",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#405653fc572d86f3d882730af8bad4e081884036",
+    "coop-api": "https://github.com/the-coop/coop-api.git#c3b469692b1e5e5d4e22a8ab661d908c5b11712a",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#0bf69f005520d53a3bce903f2a467e1b2d9ae29e",
     "pm2": "^5.3.0"
   },
   "devDependencies": {
