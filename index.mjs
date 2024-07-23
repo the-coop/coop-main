@@ -1,3 +1,2 @@
 import bot from 'coop-bot/index.mjs';
-
-// Restart bot.
+import api from 'coop-api/index.mjs';

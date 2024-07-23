@@ -4,9 +4,7 @@
   "description": "Single server community bot",
   "type": "module",
   "scripts": {
-    "start-bot": "node bot.mjs",
-    "start-api": "node api.mjs",
-    "dev-bot": "pm2 start bot.mjs && pm2 logs",
+    "start": "node index.mjs",
     "dev": "nodemon ./index.mjs",
     "lint": "eslint ."
   },
