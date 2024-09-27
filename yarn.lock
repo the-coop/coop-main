@@ -771,13 +771,13 @@ cookie@~0.4.1:
     pg "^8.4.1"
     socket.io "^4.5.1"
 
-"coop-bot@https://github.com/the-coop/coop-bot.git#42744dc31aa563b124fc9c3ab528e9ff040c39b8":
+"coop-bot@https://github.com/the-coop/coop-bot.git#745418053217169a7e8f02246678c0f17d8b24ac":
   version "1.0.2"
-  resolved "https://github.com/the-coop/coop-bot.git#42744dc31aa563b124fc9c3ab528e9ff040c39b8"
+  resolved "https://github.com/the-coop/coop-bot.git#745418053217169a7e8f02246678c0f17d8b24ac"
   dependencies:
     axios "^0.21.2"
     chance "^1.1.7"
-    coop-shared "git+https://github.com/the-coop/coop-shared.git#e8b2fb7df7be82e919728cd8c34c4e55daa60041"
+    coop-shared "git+https://github.com/the-coop/coop-shared.git#402a1e97c6ea13a915dd78fb6a2990a8d179d352"
     discord.js "^14.15.2"
     dotenv "^16.0.3"
     jsonwebtoken "^8.5.1"
@@ -786,9 +786,9 @@ cookie@~0.4.1:
     moment-timezone "^0.5.37"
     sugar "^2.0.6"
 
-"coop-shared@git+https://github.com/the-coop/coop-shared.git#e8b2fb7df7be82e919728cd8c34c4e55daa60041":
+"coop-shared@git+https://github.com/the-coop/coop-shared.git#402a1e97c6ea13a915dd78fb6a2990a8d179d352":
   version "1.0.26"
-  resolved "git+https://github.com/the-coop/coop-shared.git#e8b2fb7df7be82e919728cd8c34c4e55daa60041"
+  resolved "git+https://github.com/the-coop/coop-shared.git#402a1e97c6ea13a915dd78fb6a2990a8d179d352"
   dependencies:
     axios "^0.27.2"
     chance "^1.1.8"
