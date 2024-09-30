@@ -11,7 +11,7 @@
   "author": "lmf-git",
   "dependencies": {
     "coop-api": "https://github.com/the-coop/coop-api.git#df2525066b67a0faeae1fa4127d9d77f49bae76c",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#1a2dda6d3d907e10d69f85a26abb39c5368efb30",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#5cb4f80a79c8ecec9ae31d2ebc5bdaff3a88ca62",
     "pm2": "^5.3.0"
   },
   "devDependencies": {
