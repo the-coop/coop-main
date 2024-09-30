@@ -771,9 +771,9 @@ cookie@~0.4.1:
     pg "^8.4.1"
     socket.io "^4.5.1"
 
-"coop-bot@https://github.com/the-coop/coop-bot.git#163591d2e110b6863e9793f2d7caf24f3f819cae":
+"coop-bot@https://github.com/the-coop/coop-bot.git#b631b368a7fb1458999af7cdafbb9b5deb0ce588":
   version "1.0.2"
-  resolved "https://github.com/the-coop/coop-bot.git#163591d2e110b6863e9793f2d7caf24f3f819cae"
+  resolved "https://github.com/the-coop/coop-bot.git#b631b368a7fb1458999af7cdafbb9b5deb0ce588"
   dependencies:
     axios "^0.21.2"
     chance "^1.1.7"
