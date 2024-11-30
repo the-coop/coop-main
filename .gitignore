@@ -2,3 +2,6 @@ node_modules/
 .env
 **/donotcommit.js
 .DS_STORE
+.yarn
+.pnp.cjs
+.pnp.loader.mjs

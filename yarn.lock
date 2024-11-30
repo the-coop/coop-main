@@ -1119,9 +1119,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coop-bot@https://github.com/the-coop/coop-bot.git#375c5aa2034d4e1d136fa4fc9ede95a8cf2a4bfe":
+"coop-bot@https://github.com/the-coop/coop-bot.git#d1e418d21d420a8983c574c6219a2ac7be0a5dfb":
   version: 1.0.2
-  resolution: "coop-bot@https://github.com/the-coop/coop-bot.git#commit=375c5aa2034d4e1d136fa4fc9ede95a8cf2a4bfe"
+  resolution: "coop-bot@https://github.com/the-coop/coop-bot.git#commit=d1e418d21d420a8983c574c6219a2ac7be0a5dfb"
   dependencies:
     axios: ^0.21.2
     chance: ^1.1.7
@@ -1133,7 +1133,7 @@ __metadata:
     moment: ^2.29.2
     moment-timezone: ^0.5.37
     sugar: ^2.0.6
-  checksum: c7bbf72e926600aa50f3f0ff30a0ad5971978deeb6088aed324127b4f33cc317c72174e67c1825501de6fca03a404b7ad5e6c409f3022ee4fba1d02406e1b0b2
+  checksum: f4f588abbd105e26413af6ccadca4d09a0624def08060b53b437f5c24dcf98d521d0f5890cd558b3482a364a069a2604496ec7d1552c0179d15476eb775c44bc
   languageName: node
   linkType: hard
 
@@ -1142,7 +1142,7 @@ __metadata:
   resolution: "coop-main@workspace:."
   dependencies:
     coop-api: "https://github.com/the-coop/coop-api.git#4b716c1271f46d8b872bad863cc2017358b792a6"
-    coop-bot: "https://github.com/the-coop/coop-bot.git#375c5aa2034d4e1d136fa4fc9ede95a8cf2a4bfe"
+    coop-bot: "https://github.com/the-coop/coop-bot.git#d1e418d21d420a8983c574c6219a2ac7be0a5dfb"
     eslint: ^7.24.0
     nodemon: ^2.0.7
     pm2: ^5.3.0
