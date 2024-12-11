@@ -835,9 +835,9 @@ cookie@~0.4.1:
     pg "^8.4.1"
     socket.io "^4.5.1"
 
-"coop-bot@https://github.com/the-coop/coop-bot.git#5a64c0eebef76e8daaf090c6cbfe4704deafdcef":
+"coop-bot@https://github.com/the-coop/coop-bot.git#066a836c97c93bfec55d716574dc956daca2a9c1":
   version "1.0.2"
-  resolved "https://github.com/the-coop/coop-bot.git#5a64c0eebef76e8daaf090c6cbfe4704deafdcef"
+  resolved "https://github.com/the-coop/coop-bot.git#066a836c97c93bfec55d716574dc956daca2a9c1"
   dependencies:
     algosdk latest
     chance latest
