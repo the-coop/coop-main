@@ -605,9 +605,9 @@ continuation-local-storage@^3.2.1:
     async-listener "^0.6.0"
     emitter-listener "^1.1.1"
 
-"coop-api@https://github.com/the-coop/coop-api.git#87fdeaf33f926e798e1f46beaa84520b4f92c6e4":
+"coop-api@https://github.com/the-coop/coop-api.git#d4cc3d1fa6cecde23c764d38b62215a333f94624":
   version "1.0.3"
-  resolved "https://github.com/the-coop/coop-api.git#87fdeaf33f926e798e1f46beaa84520b4f92c6e4"
+  resolved "https://github.com/the-coop/coop-api.git#d4cc3d1fa6cecde23c764d38b62215a333f94624"
   dependencies:
     coop-shared "git+https://github.com/the-coop/coop-shared.git#0471a5b7883b5a5c2055144b42977cb7e9b9c676"
 
