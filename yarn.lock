@@ -605,15 +605,15 @@ continuation-local-storage@^3.2.1:
     async-listener "^0.6.0"
     emitter-listener "^1.1.1"
 
-"coop-api@https://github.com/the-coop/coop-api.git#d4cc3d1fa6cecde23c764d38b62215a333f94624":
+"coop-api@https://github.com/the-coop/coop-api.git#0abada6e6b34fbd70015a585c902559083c1a75f":
   version "1.0.3"
-  resolved "https://github.com/the-coop/coop-api.git#d4cc3d1fa6cecde23c764d38b62215a333f94624"
+  resolved "https://github.com/the-coop/coop-api.git#0abada6e6b34fbd70015a585c902559083c1a75f"
   dependencies:
     coop-shared "git+https://github.com/the-coop/coop-shared.git#0471a5b7883b5a5c2055144b42977cb7e9b9c676"
 
-"coop-bot@https://github.com/the-coop/coop-bot.git#9f3aabb086ac42f34b598b2e435284ad8afd9180":
+"coop-bot@https://github.com/the-coop/coop-bot.git#9cc4d081a17a4714c3a6fdc6e21545667af5d608":
   version "1.0.2"
-  resolved "https://github.com/the-coop/coop-bot.git#9f3aabb086ac42f34b598b2e435284ad8afd9180"
+  resolved "https://github.com/the-coop/coop-bot.git#9cc4d081a17a4714c3a6fdc6e21545667af5d608"
   dependencies:
     algosdk latest
     chance latest
