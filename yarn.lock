@@ -611,9 +611,9 @@ continuation-local-storage@^3.2.1:
   dependencies:
     coop-shared "git+https://github.com/the-coop/coop-shared.git#0471a5b7883b5a5c2055144b42977cb7e9b9c676"
 
-"coop-bot@https://github.com/the-coop/coop-bot.git#391543463b570f7dea3e6c220a8261a893038499":
+"coop-bot@https://github.com/the-coop/coop-bot.git#12e257a5545ea85ad8beb3c63e2de5838bcc715b":
   version "1.0.2"
-  resolved "https://github.com/the-coop/coop-bot.git#391543463b570f7dea3e6c220a8261a893038499"
+  resolved "https://github.com/the-coop/coop-bot.git#12e257a5545ea85ad8beb3c63e2de5838bcc715b"
   dependencies:
     algosdk latest
     chance latest
