@@ -10,8 +10,8 @@
   },
   "author": "lmf-git",
   "dependencies": {
-    "coop-api": "https://github.com/the-coop/coop-api.git#4b716c1271f46d8b872bad863cc2017358b792a6",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#066a836c97c93bfec55d716574dc956daca2a9c1",
+    "coop-api": "https://github.com/the-coop/coop-api.git#87fdeaf33f926e798e1f46beaa84520b4f92c6e4",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#9f3aabb086ac42f34b598b2e435284ad8afd9180",
     "pm2": "^5.3.0"
   },
   "devDependencies": {
