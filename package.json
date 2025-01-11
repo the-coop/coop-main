@@ -11,12 +11,13 @@
   "author": "lmf-git",
   "dependencies": {
     "coop-api": "https://github.com/the-coop/coop-api.git#defe55d7f852775fe565761db7987d01fbb10a98",
-    "coop-bot": "https://github.com/the-coop/coop-bot.git#aa6bce5f2e1684b067201c7d4eb9c84156c30c1c",
+    "coop-bot": "https://github.com/the-coop/coop-bot.git#5d5a134fcf5aa8276188c1417758679d8539f61d",
     "pm2": "^5.3.0"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
     "nodemon": "^2.0.7"
   },
-  "homepage": "https://thecoop.group"
+  "homepage": "https://thecoop.group",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
